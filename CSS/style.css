@@ -1,0 +1,29 @@
+.carousel-caption {
+  top: 35%;
+}
+
+.carousel-item {
+  background-color: black;
+  border-radius: 10px;
+}
+.carousel-item img {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 576px) {
+  .carousel-caption {
+    top: 5%;
+  }
+
+  .carousel-caption h5 {
+    font-size: 24px;
+  }
+
+  .carousel-caption p {
+    font-size: 10px;
+  }
+
+  .w-100 {
+    width: 100% !important;
+  }
+}
