@@ -14,6 +14,10 @@
   background-color: #f4fafd;
 }
 
+.fa-star {
+  color: #f8ae17;
+}
+
 @media screen and (max-width: 576px) {
   .carousel-caption {
     top: 5%;
