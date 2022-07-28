@@ -1,7 +1,9 @@
+/* Used for centralize the text on courses section */
 .carousel-caption {
   top: 35%;
 }
 
+/* image opacity */
 .carousel-item {
   background-color: black;
   border-radius: 10px;
@@ -10,6 +12,7 @@
   opacity: 0.5;
 }
 
+/* //////Colors////// */
 .bg-skybule {
   background-color: #f4fafd;
 }
@@ -19,6 +22,7 @@
 }
 
 @media screen and (max-width: 576px) {
+  /* Used only for fixed font-size on carousel from header section */
   .carousel-caption {
     top: 5%;
   }
@@ -35,6 +39,7 @@
     font-size: 20px;
   }
 
+  /* Used only for fixed mobile-height of images for courses section */
   .image-mobile {
     min-width: 100%;
     height: 245px;
@@ -42,8 +47,8 @@
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
+  /* Used only for fixed tab-height of image for E-learning section */
   .adjust {
-    width: 100% !important;
     height: 378px;
   }
 }
