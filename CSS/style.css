@@ -16,7 +16,6 @@
 .bg-skybule {
   background-color: #f4fafd;
 }
-
 .fa-star {
   color: #f8ae17;
 }
@@ -26,17 +25,11 @@
   .carousel-caption {
     top: 5%;
   }
-
   .carousel-caption h5 {
     font-size: 24px;
   }
-
   .carousel-caption p {
     font-size: 10px;
-  }
-
-  .font-mobile {
-    font-size: 20px;
   }
 
   /* Used only for fixed mobile-height of images for courses section */
